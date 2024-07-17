@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title('동물 이미지 찾아주기🥰')
+st.title('동물 이미지를 찾아드려요🥰')
 st.subheader('여러분을 환영합니다', divider = 'blue')
 
 title = st.text_input("영어로 동물 이름을 입력해주세요")
