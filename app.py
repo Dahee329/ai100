@@ -27,7 +27,7 @@ if st.button('생성하기'):
         )
         response = client.images.generate(
             model="dall-e-3",
-            prompt='f{keyworld}, 색연필로 그린듯하게 그려줘',
+            prompt='f{keyworld}, 영화 인사이드 아웃 캐릭터 느낌으로 그려줘',
             size="1024x1024",
             quality="standard",
             n=1,
