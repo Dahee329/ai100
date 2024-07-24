@@ -27,7 +27,7 @@ if st.button('생성하기'):
         )
         response = client.images.generate(
             model="dall-e-3",
-            prompt='f{keyworld}, 화려한 느낌',
+            prompt=keyworld,
             size="1024x1024",
             quality="standard",
             n=1,
